@@ -2,7 +2,6 @@
 use rand::prelude::*;
 use std::time::{Duration, SystemTime};
 use image;
-use num_complex;
 fn pretty_print_bool_matrix(matrix : Vec<Vec<bool>>) -> () {
 
     let x_size = matrix.len();
